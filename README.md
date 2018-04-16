@@ -1,2 +1,4 @@
 # PracticeCoreJava
-private repo for practice
+private repo for practice 
+
+added test 
