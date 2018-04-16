@@ -56,7 +56,7 @@ public class ProducerConsumerIntrinsicLocking {
         return buffer.size() == 10;
     }
 
-    public class Consumer implements Callable<String{
+    public class Consumer implements Callable<String>{
 
         @Override
         public String call() throws Exception {
