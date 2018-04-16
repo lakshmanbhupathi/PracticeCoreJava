@@ -89,12 +89,14 @@ public class ProducerConsumerProblem {
         Consumer consumer = new Consumer();
 
         Runnable producerTask = () -> {
+            // produces 50 times
             for (int i = 0; i <= 50; i++) {
                 producer.produce();
             }
         };
 
         Runnable consumerTask = () -> {
+             // consumes 50 times
             for (int i = 0; i <= 50; i++) {
                 consumer.consume();
             }
@@ -106,9 +108,11 @@ public class ProducerConsumerProblem {
         producerThread.start();
         consumerThread.start();
 
+        // joining so that threads will complete their respective executions
         producerThread.join();
         consumerThread.join();
 
+        //Asserting
         System.out.println("Elements remaining in buffer :: " + count);
     }
 }
