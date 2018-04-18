@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.*;
 
+/**
+ * TODO barrier reset
+ */
 public class CyclicBarrierFriendCinema {
     public static void main(String[] args) {
         class Friend implements Callable<String> {
