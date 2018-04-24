@@ -43,5 +43,6 @@ public class ConnectionFactory {
  * can extend Oracle Db connection and override close method to call returnConnection()
  */
 class Connection {
-
 }
+
+//TODO test
