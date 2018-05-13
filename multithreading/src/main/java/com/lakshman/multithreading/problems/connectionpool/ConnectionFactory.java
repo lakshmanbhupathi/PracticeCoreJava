@@ -5,7 +5,7 @@ import java.util.concurrent.BlockingQueue;
 
 /**
  * Problem Design Connection Pool
- * asked in PhenomPeople round 2
+ * @asked PhenomPeople round 2
  */
 public class ConnectionFactory {
     private static BlockingQueue<Connection> blockingQueue;
